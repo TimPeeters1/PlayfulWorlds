@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 9ef482616df02c840ad60e8ebd2e2cfe
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Hallway
+    100004: HallwayEntrance
+    100006: HallwayEntrance.001
+    100008: HallwayEntrance.002
+    100010: Light
+    100012: Pillar
+    100014: Pillar.001
+    100016: Pillar.002
+    100018: Pillar.003
+    100020: Pillar.004
+    100022: Pillar.005
+    100024: Plane
+    100026: //RootNode
+    400000: Camera
+    400002: Hallway
+    400004: HallwayEntrance
+    400006: HallwayEntrance.001
+    400008: HallwayEntrance.002
+    400010: Light
+    400012: Pillar
+    400014: Pillar.001
+    400016: Pillar.002
+    400018: Pillar.003
+    400020: Pillar.004
+    400022: Pillar.005
+    400024: Plane
+    400026: //RootNode
+    2000000: Camera
+    2100000: No Name
+    2300000: Hallway
+    2300002: HallwayEntrance
+    2300004: HallwayEntrance.001
+    2300006: HallwayEntrance.002
+    2300008: Pillar
+    2300010: Pillar.001
+    2300012: Pillar.002
+    2300014: Pillar.003
+    2300016: Pillar.004
+    2300018: Pillar.005
+    2300020: Plane
+    3300000: Hallway
+    3300002: HallwayEntrance
+    3300004: HallwayEntrance.001
+    3300006: HallwayEntrance.002
+    3300008: Pillar
+    3300010: Pillar.001
+    3300012: Pillar.002
+    3300014: Pillar.003
+    3300016: Pillar.004
+    3300018: Pillar.005
+    3300020: Plane
+    4300000: Hallway
+    4300002: Pillar
+    4300004: Plane
+    4300006: HallwayEntrance
+    4300008: Pillar.002
+    4300010: HallwayEntrance.001
+    4300012: Pillar.001
+    4300014: HallwayEntrance.002
+    4300016: Pillar.003
+    4300018: Pillar.004
+    4300020: Pillar.005
+    6400000: Hallway
+    6400002: HallwayEntrance
+    6400004: HallwayEntrance.001
+    6400006: HallwayEntrance.002
+    6400008: Pillar
+    6400010: Pillar.001
+    6400012: Pillar.002
+    6400014: Pillar.003
+    6400016: Pillar.004
+    6400018: Pillar.005
+    6400020: Plane
+    10800000: Light
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

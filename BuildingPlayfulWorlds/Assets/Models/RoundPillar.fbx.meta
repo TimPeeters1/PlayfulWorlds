@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: ce5fb9b7e4fd96b4f97d00e1095a6aa8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BigHall
+    100004: BigHall.001
+    100006: BigHall.003
+    100008: Camera
+    100010: Light
+    100012: RoundPillarBig
+    100014: RoundPillarBig.001
+    100016: RoundPillarBig.002
+    100018: RoundPillarBig.003
+    100020: Window
+    400000: //RootNode
+    400002: BigHall
+    400004: BigHall.001
+    400006: BigHall.003
+    400008: Camera
+    400010: Light
+    400012: RoundPillarBig
+    400014: RoundPillarBig.001
+    400016: RoundPillarBig.002
+    400018: RoundPillarBig.003
+    400020: Window
+    2000000: Camera
+    2100000: No Name
+    2300000: //RootNode
+    2300002: BigHall
+    2300004: BigHall.001
+    2300006: BigHall.003
+    2300008: RoundPillarBig
+    2300010: RoundPillarBig.001
+    2300012: RoundPillarBig.002
+    2300014: RoundPillarBig.003
+    2300016: Window
+    3300000: //RootNode
+    3300002: BigHall
+    3300004: BigHall.001
+    3300006: BigHall.003
+    3300008: RoundPillarBig
+    3300010: RoundPillarBig.001
+    3300012: RoundPillarBig.002
+    3300014: RoundPillarBig.003
+    3300016: Window
+    4300000: PillarRound
+    4300002: BigHall
+    4300004: RoundPillarBig
+    4300006: RoundPillarBig.001
+    4300008: RoundPillarBig.002
+    4300010: RoundPillarBig.003
+    4300012: BigHall.001
+    4300014: Window
+    4300016: BigHall.003
+    6400000: //RootNode
+    6400002: BigHall
+    6400004: BigHall.001
+    6400006: BigHall.003
+    6400008: RoundPillarBig
+    6400010: RoundPillarBig.001
+    6400012: RoundPillarBig.002
+    6400014: RoundPillarBig.003
+    6400016: Window
+    10800000: Light
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
