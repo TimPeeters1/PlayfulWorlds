@@ -34,3 +34,23 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+BuildingPlayfulWorlds/BigHall_Ceiling\.spp
+
+BuildingPlayfulWorlds/BigHall_Floor\.spp
+
+BuildingPlayfulWorlds/BigHall_Walls\.spp
+
+BuildingPlayfulWorlds/EntrancePillar\.spp
+
+BuildingPlayfulWorlds/Hall1_autosave_0\.spp
+
+BuildingPlayfulWorlds/Hall1_autosave_1\.spp
+
+BuildingPlayfulWorlds/Hall1\.spp
+
+BuildingPlayfulWorlds/Moodboard\.png
+
+BuildingPlayfulWorlds/Pillar1\.spp
+
+BuildingPlayfulWorlds/RoundPillarBig\.spp
