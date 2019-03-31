@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public interface IDamagable {
     void DoDamage(int damage);
@@ -8,8 +10,19 @@ public interface IDamagable {
 
 public class Mummy_Health : MonoBehaviour, IDamagable
 {
-    [SerializeField] int MaxHealth;
-    [SerializeField] int currentHealth;
+    /*
+    Dit is het script/de class die er voor zorgt dat mummy's damage nemen van bullets,
+    deze zijn te vinden onder bullet.cs.
+    */
+
+    [SerializeField] bool isBoss;
+    BossBattle battleScript;
+
+    [SerializeField] Image healthBar;
+    MummyAI ai;
+
+    [SerializeField] float MaxHealth;
+    public float currentHealth;
 
     Rigidbody[] rb;
 
@@ -20,6 +33,8 @@ public class Mummy_Health : MonoBehaviour, IDamagable
 
     void Start()
     {
+        ai = GetComponent<MummyAI>();
+
         currentHealth = MaxHealth;
         rb = GetComponentsInChildren<Rigidbody>();
 
@@ -27,6 +42,8 @@ public class Mummy_Health : MonoBehaviour, IDamagable
         {
             child.isKinematic = true;
         }
+
+        battleScript = FindObjectOfType<BossBattle>();
     }
 
     void Update()
@@ -35,6 +52,8 @@ public class Mummy_Health : MonoBehaviour, IDamagable
         {
             UnfreezeRagdoll();
         }
+
+        healthBar.fillAmount = currentHealth / MaxHealth;
     }
 
     void UnfreezeRagdoll()
@@ -45,8 +64,13 @@ public class Mummy_Health : MonoBehaviour, IDamagable
             child.isKinematic = false;
         }
         this.transform.DetachChildren();
-        Destroy(this.gameObject);
 
+        if (isBoss)
+        {
+            battleScript.StartCoroutine("FinishGame");
+        }
+
+        Destroy(this.gameObject);
     }
 
 }

@@ -27,6 +27,8 @@ ExportedObj/
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
+*.meta
+*.bin
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -35,22 +37,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-BuildingPlayfulWorlds/BigHall_Ceiling\.spp
-
-BuildingPlayfulWorlds/BigHall_Floor\.spp
-
-BuildingPlayfulWorlds/BigHall_Walls\.spp
-
-BuildingPlayfulWorlds/EntrancePillar\.spp
-
-BuildingPlayfulWorlds/Hall1_autosave_0\.spp
-
-BuildingPlayfulWorlds/Hall1_autosave_1\.spp
-
-BuildingPlayfulWorlds/Hall1\.spp
-
-BuildingPlayfulWorlds/Moodboard\.png
-
-BuildingPlayfulWorlds/Pillar1\.spp
-
-BuildingPlayfulWorlds/RoundPillarBig\.spp
+#Substance Painter Files
+*.spp

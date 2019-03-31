@@ -11,7 +11,12 @@ ModelImporter:
     4300000: Stairs
     6400000: //RootNode
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c10343c4e1ed9a440b5807d2b9bc4456, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

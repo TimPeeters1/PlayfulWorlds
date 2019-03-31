@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    //Bullet script dat damage doet op alles met een IDamagable interface.
+    //Dit script zit vast aan rigidbody bullets die gebruik maken van physics.
+
     public int Damage;
 
     private void OnTriggerEnter(Collider other)

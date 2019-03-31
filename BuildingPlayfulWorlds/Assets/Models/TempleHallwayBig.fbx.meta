@@ -7,11 +7,20 @@ ModelImporter:
     100002: Pillar
     100004: Pillar.001
     100006: //RootNode
+    100008: Camera
+    100010: Light
+    100012: Light.001
     400000: BigHallway
     400002: Pillar
     400004: Pillar.001
     400006: //RootNode
+    400008: Camera
+    400010: Light
+    400012: Light.001
+    2000000: Camera
     2100000: Material.001
+    2100002: Main
+    2100004: PillarSquare
     2300000: BigHallway
     2300002: Pillar
     2300004: Pillar.001
@@ -24,12 +33,24 @@ ModelImporter:
     6400000: BigHallway
     6400002: Pillar
     6400004: Pillar.001
+    10800000: Light
+    10800002: Light.001
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: 9f9553c0476887346bd3b3ac8af1bf3d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.001
     second: {fileID: 2100000, guid: ca27398355c9482409186e9acc11fbb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PillarSquare
+    second: {fileID: 2100000, guid: c8f2a6a22b459e04ca52b0e83b80d115, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

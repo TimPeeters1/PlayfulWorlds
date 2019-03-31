@@ -3,6 +3,12 @@ using System.Collections;
 
 public class WeaponSway : MonoBehaviour
 {
+    /*
+    Een script dat er voor zorgt dat wanneer je een gun of player item (bv. torch) beweegt,
+    deze met een kleine delay mee draait voor een realistischer effect.
+    */
+
+
     public float smoothGun = 2;
     public float tiltAngle = 30;
     public float amount = 0.02f;
@@ -19,6 +25,7 @@ public class WeaponSway : MonoBehaviour
 
     void Update()
     {
+
 
         float TiltGun = Input.GetAxis("Horizontal") * tiltAngle;
 
